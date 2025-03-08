@@ -1,0 +1,913 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&family=Alegreya:ital,wght@0,400..900;1,400..900&family=Amatic+SC:wght@400;700&family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Dosis:wght@200..800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="assets/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <title>Kerri</title>
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#navbar-main">
+    <div class="fixed-gear position-fixed bg-gray-dark d-flex justify-content-center align-items-center rounded-end-1">
+        <i class="fa-solid fa-gear fa-spin text-white fs-5"></i>
+    </div>
+    <div class="fixed-arrow rounded-top-1 d-flex justify-content-center align-items-center position-fixed bottom-0">
+        <a href="#" class="d-block px-3 py-1"><i class="fa-solid fa-angle-up text-white fs-5"></i></a>
+    </div>
+    <nav class="navbar navbar-expand-lg bg-white navbar-light position-fixed w-100" id="navbar-main">
+        <div class="container">
+            <a class="navbar-brand fs-4 fw-bold" href="#">Kerri</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav nav-pills ms-auto" role="tablist">
+                    <li class="nav-item">
+                        <a class="nav-link px-3 fs-14" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link px-3 fs-14" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link px-3 fs-14" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link px-3 fs-14" href="#client">Client</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link px-3 fs-14" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link px-3 fs-14" href="#blog">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link px-3 fs-14" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="hero vh-100" id="home">
+        <div class="container h-100">
+            <div class="d-flex justify-content-center align-items-center h-100 position-relative">
+                <div class="hero-content text-white text-center">
+                    <h3 class="fs-4">Welcome</h3>
+                    <h1 class="fw-bold pt-4">I'M </h1>
+                    <p class="my-4 lh-base text-white text-opacity-75">It is a long established fact that a reader will
+                        be of a page
+                        when<br>established fact looking at
+                        its layout.</p>
+                    <button class="cv-btn btn btn-outline-light border-2 rounded-pill"><a href="#"
+                            class="text-decoration-none d-block px-4 py-1 fw-medium text-uppercase">Download
+                            CV</a></button>
+                </div>
+                <a href="#about" class="position-absolute move-link">
+                    <div class="move-btn py-4 px-3 rounded-pill border border-2 border-white"></div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="about py-3 py-lg-5" id="about">
+        <div class="container">
+            <div class="row g-4 g-lg-5 align-items-center py-3 py-lg-5">
+                <div class="col-lg-6">
+                    <div class="p-1 border border-1 border-black border-opacity-25 rounded-3">
+                        <img src="images/about.jpg" class="w-100 d-block" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div>
+                        <h2 class="fw-medium fs-2"><span class="fw-bold">About</span> Me</h2>
+                        <p class="fs-5 fw-medium py-3">Hello! <span class="fw-bold text-main-color">I'M Kerri
+                                Deo.</span></p>
+                        <div class="text-black text-opacity-50 fw-medium fs-14">
+                            <p>It is a long established fact that a reader will be distracted by the readable content of
+                                a page when looking at its layout.</p>
+                            <p>The point of using Lorem Ipsum is that it has a more-or-less normal distribution of
+                                letters, as opposed to using 'Content here, content here', making it look like readable
+                                English.</p>
+                            <p>There are many variations of passages of Lorem Ipsum available, but the majority have
+                                suffered alteration in some form, by injected humour, or randomised words which don't
+                                look even slightly believable.</p>
+                        </div>
+                        <div class="d-flex gap-3 icons pt-3">
+                            <div class="rounded-circle d-flex justify-content-center align-items-center">
+                                <a href="#"><i class="fa-solid fa-basketball"></i></a>
+                            </div>
+                            <div class="rounded-circle d-flex justify-content-center align-items-center">
+                                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                            </div>
+                            <div class="rounded-circle d-flex justify-content-center align-items-center">
+                                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                            </div>
+                            <div class="rounded-circle d-flex justify-content-center align-items-center">
+                                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="services" id="services">
+        <div class="py-3 py-lg-5 bg-light">
+            <div class="container py-3 py-lg-5">
+                <div class="text-center">
+                    <h2 class="fw-medium fs-2">Our <span class="fw-bold">Services</span></h2>
+                    <p class="text-black text-opacity-50 fw-medium pt-4 lh-base">It is a long established fact that a
+                        reader
+                        will
+                        be of a page when<br>established fact looking at its layout.</p>
+                </div>
+                <div class="row g-4 mt-4">
+                    <div class="col-lg-4">
+                        <div class="text-center p-5 border border-1 border-secondary border-opacity-25 rounded-2">
+                            <div class="pb-3">
+                                <i class="fa-solid fa-chart-line text-main-color fs-1"></i>
+                            </div>
+                            <h3 class="position-relative fs-5 fw-bold py-3">Graphic Design</h3>
+                            <p class="text-black text-opacity-50 fw-medium fs-14">There are many variations of passages
+                                of but the majority have suffered alteration in some form.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="text-center p-5 border border-1 border-secondary border-opacity-25 rounded-2">
+                            <div class="pb-3">
+                                <i class="fa-solid fa-mug-hot text-main-color fs-2"></i>
+                            </div>
+                            <h3 class="position-relative fs-5 fw-bold py-3">Graphic Design</h3>
+                            <p class="text-black text-opacity-50 fw-medium fs-14 pt-2 lh-base">There are many variations of passages
+                                of but the majority have suffered alteration in some form.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="text-center p-5 border border-1 border-secondary border-opacity-25 rounded-2">
+                            <div class="pb-3">
+                                <i class="fa-solid fa-cloud-arrow-up text-main-color fs-2"></i>
+                            </div>
+                            <h3 class="position-relative fs-5 fw-bold py-3">Graphic Design</h3>
+                            <p class="text-black text-opacity-50 fw-medium fs-14 pt-2 lh-base">There are many variations of passages
+                                of but the majority have suffered alteration in some form.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="text-center p-5 border border-1 border-secondary border-opacity-25 rounded-2">
+                            <div class="pb-3">
+                                <i class="fa-solid fa-layer-group text-main-color fs-2"></i>
+                            </div>
+                            <h3 class="position-relative fs-5 fw-bold py-3">Graphic Design</h3>
+                            <p class="text-black text-opacity-50 fw-medium fs-14 pt-2 lh-base">There are many variations of passages
+                                of but the majority have suffered alteration in some form.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="text-center p-5 border border-1 border-secondary border-opacity-25 rounded-2">
+                            <div class="pb-3">
+                                <i class="fa-solid fa-paintbrush text-main-color fs-2"></i>
+                            </div>
+                            <h3 class="position-relative fs-5 fw-bold py-3">Graphic Design</h3>
+                            <p class="text-black text-opacity-50 fw-medium fs-14 pt-2 lh-base">There are many variations of passages
+                                of but the majority have suffered alteration in some form.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="text-center p-5 border border-1 border-secondary border-opacity-25 rounded-2">
+                            <div class="pb-3">
+                                <i class="fa-solid fa-pen-to-square text-main-color fs-2"></i>
+                            </div>
+                            <h3 class="position-relative fs-5 fw-bold py-3">Graphic Design</h3>
+                            <p class="text-black text-opacity-50 fw-medium fs-14 pt-2 lh-base">There are many variations of passages
+                                of but the majority have suffered alteration in some form.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="py-3 py-lg-5-bg-white">
+            <div class="container py-3 py-lg-5 d-flex justify-content-center align-items-center">
+                <div class="text-center py-3 py-lg-5">
+                    <p class="fs-2 fw-bold">I Am Available For Freelancer.</p>
+                    <button class="custm-btn ms-auto mt-3 border-0 p-0 rounded-pill"><a href="#"
+                            class="text-decoration-none d-block px-5 py-2 fw-medium text-uppercase text-white rounded-pill">Hire
+                            me</a></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="client py-3 py-lg-5 bg-light" id="client">
+        <div class="container">
+            <div class="text-center py-3 py-lg-5">
+                <h2 class="fw-medium fs-2">Our <span class="fw-bold">Client</span></h2>
+                <p class="text-black text-opacity-50 fw-medium pt-4 lh-base">It is a long established fact that a reader
+                    will
+                    be of a page when<br>established fact looking at its layout.</p>
+            </div>
+            <div id="carouselExampleIndicators" class="carousel slide text-center py-3 py-lg-5">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active border-top-0 border-bottom-0 rounded-2" aria-current="true"
+                        aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        class=" border-top-0 border-bottom-0 rounded-2" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        class=" border-top-0 border-bottom-0 rounded-2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner mb-3">
+                    <div class="carousel-item active">
+                        <i class="fa-solid fa-quote-right text-main-color fs-1"></i>
+                        <div class="rounded-circle p-1 border border-1 border-black border-opacity-25 m-auto my-4"
+                            style="width: 100px; height: 100px;">
+                            <img src="images/testi-1.jpg" class="d-block w-100 rounded-circle" alt="...">
+                        </div>
+                        <p class="text-black text-opacity-50 fs-14 fw-medium fst-italic">&quot; Lorem ipsum dolor sit,
+                            amet consectetur adipisicing elit. Dolores numquam commodi iusto illum sit corporis ut
+                            laudantium eum, modi natus?. &quot;</p>
+                        <h6>- Ebon Verty, <span>Envato</span></h6>
+                    </div>
+                    <div class="carousel-item">
+                        <i class="fa-solid fa-quote-right text-main-color fs-1"></i>
+                        <div class="rounded-circle p-1 border border-1 border-black border-opacity-25 m-auto my-4"
+                            style="width: 100px; height: 100px;">
+                            <img src="images/testi-2.jpg" class="d-block w-100 rounded-circle" alt="...">
+                        </div>
+                        <p class="text-black text-opacity-50 fs-14 fw-medium fst-italic">&quot; Lorem ipsum dolor sit,
+                            amet consectetur adipisicing elit. Dolores numquam commodi iusto illum sit corporis ut
+                            laudantium eum, modi natus?. &quot;</p>
+                        <h6>- Ebon Verty, <span>Envato</span></h6>
+                    </div>
+                    <div class="carousel-item">
+                        <i class="fa-solid fa-quote-right text-main-color fs-1"></i>
+                        <div class="rounded-circle p-1 border border-1 border-black border-opacity-25 m-auto my-4"
+                            style="width: 100px; height: 100px;">
+                            <img src="images/testi-3.jpg" class="d-block w-100 rounded-circle" alt="...">
+                        </div>
+                        <p class="text-black text-opacity-50 fs-14 fw-medium fst-italic">&quot; Lorem ipsum dolor sit,
+                            amet consectetur adipisicing elit. Dolores numquam commodi iusto illum sit corporis ut
+                            laudantium eum, modi natus?. &quot;</p>
+                        <h6>- Ebon Verty, <span>Envato</span></h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio py-3 py-lg-5" id="portfolio">
+        <div class="container py-3 py-lg-5">
+            <div class="text-center mb-5">
+                <h2 class="fw-medium fs-2">Our <span class="fw-bold">Works</span></h2>
+                <p class="text-black text-opacity-50 fw-medium pt-4 lh-base">It is a long established fact that a reader
+                    will
+                    be of a page when<br>established fact looking at its layout.</p>
+            </div>
+            <ul class="nav nav-pills mb-5 justify-content-center" id="pills-tab" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link fw-medium me-2 fs-14 px-3 py-1 active rounded-pill" id="pills-all-tab"
+                        data-bs-toggle="pill" data-bs-target="#pills-all" type="button" role="tab"
+                        aria-controls="pills-all" aria-selected="true">ALL</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link fw-medium me-2 fs-14 px-3 py-1 rounded-pill" id="pills-seo-tab"
+                        data-bs-toggle="pill" data-bs-target="#pills-seo" type="button" role="tab"
+                        aria-controls="pills-seo" aria-selected="false">SEO</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link fw-medium me-2 fs-14 px-3 py-1 rounded-pill" id="pills-webdesign-tab"
+                        data-bs-toggle="pill" data-bs-target="#pills-webdesign" type="button" role="tab"
+                        aria-controls="pills-webdesign" aria-selected="false">WEBDESIGN</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link fw-medium me-2 fs-14 px-3 py-1 rounded-pill" id="pills-work-tab"
+                        data-bs-toggle="pill" data-bs-target="#pills-work" type="button" role="tab"
+                        aria-controls="pills-work" aria-selected="false">WORK</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link fw-medium me-2 fs-14 px-3 py-1 rounded-pill" id="pills-wordpress-tab"
+                        data-bs-toggle="pill" data-bs-target="#pills-wordpress" type="button" role="tab"
+                        aria-controls="pills-wordpress" aria-selected="false">WORDPRESS</button>
+                </li>
+            </ul>
+            <div class="tab-content" id="pills-tabContent">
+                <div class="tab-pane fade show active" id="pills-all" role="tabpanel" aria-labelledby="pills-all-tab"
+                    tabindex="0">
+                    <div class="row g-4">
+                        <div class="col-lg-4">
+                            <button type="button" class="btn p-0 d-block position-relative btn-modal overflow-hidden"
+                                data-bs-toggle="modal" data-bs-target="#imgModal13">
+                                <img src="images/1.jpg" class="w-100" alt="">
+                                <div
+                                    class="layer position-absolute h-100 top-0 w-100 d-flex flex-column justify-content-center align-items-center">
+                                    <h3 class="text-white text-opacity-75 fs-6">Category</h3>
+                                    <h4 class="text-white fs-5">Project Title</h4>
+                                </div>
+                            </button>
+                            <div class="modal fade" id="imgModal13" tabindex="-1" aria-labelledby="imgModal13Label"
+                                aria-hidden="true">
+                                <div class="modal-dialog modal-lg modal-dialog-centered">
+                                    <div class="modal-content position-relative">
+                                        <button type="button" class="btn-close position-absolute top-0 z-3 end-0"
+                                            data-bs-dismiss="modal" aria-label="Close"></button>
+                                        <div class="modal-body p-0">
+                                            <img src="images/1.jpg" class="w-100 d-block" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <button type="button" class="btn p-0 d-block position-relative btn-modal overflow-hidden"
+                                data-bs-toggle="modal" data-bs-target="#imgModal14">
+                                <img src="images/2.jpg" class="w-100" alt="">
+                                <div
+                                    class="layer position-absolute h-100 top-0 w-100 d-flex flex-column justify-content-center align-items-center">
+                                    <h3 class="text-white text-opacity-75 fs-6">Category</h3>
+                                    <h4 class="text-white fs-5">Project Title</h4>
+                                </div>
+                            </button>
+                            <div class="modal fade" id="imgModal14" tabindex="-1" aria-labelledby="imgModal14Label"
+                                aria-hidden="true">
+                                <div class="modal-dialog modal-lg modal-dialog-centered">
+                                    <div class="modal-content position-relative">
+                                        <button type="button" class="btn-close position-absolute top-0 z-3 end-0"
+                                            data-bs-dismiss="modal" aria-label="Close"></button>
+                                        <div class="modal-body p-0">
+                                            <img src="images/2.jpg" class="w-100 d-block" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <button type="button" class="btn p-0 d-block position-relative btn-modal overflow-hidden"
+                                data-bs-toggle="modal" data-bs-target="#imgMo15al2">
+                                <img src="images/3.jpg" class="w-100" alt="">
+                                <div
+                                    class="layer position-absolute h-100 top-0 w-100 d-flex flex-column justify-content-center align-items-center">
+                                    <h3 class="text-white text-opacity-75 fs-6">Category</h3>
+                                    <h4 class="text-white fs-5">Project Title</h4>
+                                </div>
+                            </button>
+                            <div class="modal fade" id="imgM15dal2" tabindex="-1" aria-labelledby="imgModal15Label"
+                                aria-hidden="true">
+                                <div class="modal-dialog modal-lg modal-dialog-centered">
+                                    <div class="modal-content position-relative">
+                                        <button type="button" class="btn-close position-absolute top-0 z-3 end-0"
+                                            data-bs-dismiss="modal" aria-label="Close"></button>
+                                        <div class="modal-body p-0">
+                                            <img src="images/3.jpg" class="w-100 d-block" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <button type="button" class="btn p-0 d-block position-relative btn-modal overflow-hidden"
+                                data-bs-toggle="modal" data-bs-target="#imgModal17">
+                                <img src="images/4.jpg" class="w-100" alt="">
+                                <div
+                                    class="layer position-absolute h-100 top-0 w-100 d-flex flex-column justify-content-center align-items-center">
+                                    <h3 class="text-white text-opacity-75 fs-6">Category</h3>
+                                    <h4 class="text-white fs-5">Project Title</h4>
+                                </div>
+                            </button>
+                            <div class="modal fade" id="imgModal17" tabindex="-1" aria-labelledby="imgModal17Label"
+                                aria-hidden="true">
+                                <div class="modal-dialog modal-lg modal-dialog-centered">
+                                    <div class="modal-content position-relative">
+                                        <button type="button" class="btn-close position-absolute top-0 z-3 end-0"
+                                            data-bs-dismiss="modal" aria-label="Close"></button>
+                                        <div class="modal-body p-0">
+                                            <img src="images/4.jpg" class="w-100 d-block" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <button type="button" class="btn p-0 d-block position-relative btn-modal overflow-hidden"
+                                data-bs-toggle="modal" data-bs-target="#imgModal16">
+                                <img src="images/5.jpg" class="w-100" alt="">
+                                <div
+                                    class="layer position-absolute h-100 top-0 w-100 d-flex flex-column justify-content-center align-items-center">
+                                    <h3 class="text-white text-opacity-75 fs-6">Category</h3>
+                                    <h4 class="text-white fs-5">Project Title</h4>
+                                </div>
+                            </button>
+                            <div class="modal fade" id="imgModal16" tabindex="-1" aria-labelledby="imgModal16Label"
+                                aria-hidden="true">
+                                <div class="modal-dialog modal-lg modal-dialog-centered">
+                                    <div class="modal-content position-relative">
+                                        <button type="button" class="btn-close position-absolute top-0 z-3 end-0"
+                                            data-bs-dismiss="modal" aria-label="Close"></button>
+                                        <div class="modal-body p-0">
+                                            <img src="images/5.jpg" class="w-100 d-block" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <button type="button" class="btn p-0 d-block position-relative btn-modal overflow-hidden"
+                                data-bs-toggle="modal" data-bs-target="#imgModal18">
+                                <img src="images/6.jpg" class="w-100" alt="">
+                                <div
+                                    class="layer position-absolute h-100 top-0 w-100 d-flex flex-column justify-content-center align-items-center">
+                                    <h3 class="text-white text-opacity-75 fs-6">Category</h3>
+                                    <h4 class="text-white fs-5">Project Title</h4>
+                                </div>
+                            </button>
+                            <div class="modal fade" id="imgModal18" tabindex="-1" aria-labelledby="imgModal18Label"
+                                aria-hidden="true">
+                                <div class="modal-dialog modal-lg modal-dialog-centered">
+                                    <div class="modal-content position-relative">
+                                        <button type="button" class="btn-close position-absolute top-0 z-3 end-0"
+                                            data-bs-dismiss="modal" aria-label="Close"></button>
+                                        <div class="modal-body p-0">
+                                            <img src="images/6.jpg" class="w-100 d-block" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="pills-seo" role="tabpanel" aria-labelledby="pills-seo-tab" tabindex="0">
+                    <div class="row g-4">
+                        <div class="col-lg-4">
+                            <button type="button" class="btn p-0 d-block position-relative btn-modal overflow-hidden"
+                                data-bs-toggle="modal" data-bs-target="#imgModal1">
+                                <img src="images/2.jpg" class="w-100" alt="">
+                                <div
+                                    class="layer position-absolute h-100 top-0 w-100 d-flex flex-column justify-content-center align-items-center">
+                                    <h3 class="text-white text-opacity-75 fs-6">Category</h3>
+                                    <h4 class="text-white fs-5">Project Title</h4>
+                                </div>
+                            </button>
+                            <div class="modal fade" id="imgModal1" tabindex="-1" aria-labelledby="imgModal1Label"
+                                aria-hidden="true">
+                                <div class="modal-dialog modal-lg modal-dialog-centered">
+                                    <div class="modal-content position-relative">
+                                        <button type="button" class="btn-close position-absolute top-0 z-3 end-0"
+                                            data-bs-dismiss="modal" aria-label="Close"></button>
+                                        <div class="modal-body p-0">
+                                            <img src="images/2.jpg" class="w-100 d-block" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <button type="button" class="btn p-0 d-block position-relative btn-modal overflow-hidden"
+                                data-bs-toggle="modal" data-bs-target="#imgModal2">
+                                <img src="images/3.jpg" class="w-100" alt="">
+                                <div
+                                    class="layer position-absolute h-100 top-0 w-100 d-flex flex-column justify-content-center align-items-center">
+                                    <h3 class="text-white text-opacity-75 fs-6">Category</h3>
+                                    <h4 class="text-white fs-5">Project Title</h4>
+                                </div>
+                            </button>
+                            <div class="modal fade" id="imgModal2" tabindex="-1" aria-labelledby="imgModal2Label"
+                                aria-hidden="true">
+                                <div class="modal-dialog modal-lg modal-dialog-centered">
+                                    <div class="modal-content position-relative">
+                                        <button type="button" class="btn-close position-absolute top-0 z-3 end-0"
+                                            data-bs-dismiss="modal" aria-label="Close"></button>
+                                        <div class="modal-body p-0">
+                                            <img src="images/3.jpg" class="w-100 d-block" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <button type="button" class="btn p-0 d-block position-relative btn-modal overflow-hidden"
+                                data-bs-toggle="modal" data-bs-target="#imgModal3">
+                                <img src="images/5.jpg" class="w-100" alt="">
+                                <div
+                                    class="layer position-absolute h-100 top-0 w-100 d-flex flex-column justify-content-center align-items-center">
+                                    <h3 class="text-white text-opacity-75 fs-6">Category</h3>
+                                    <h4 class="text-white fs-5">Project Title</h4>
+                                </div>
+                            </button>
+                            <div class="modal fade" id="imgModal3" tabindex="-1" aria-labelledby="imgModal3Label"
+                                aria-hidden="true">
+                                <div class="modal-dialog modal-lg modal-dialog-centered">
+                                    <div class="modal-content position-relative">
+                                        <button type="button" class="btn-close position-absolute top-0 z-3 end-0"
+                                            data-bs-dismiss="modal" aria-label="Close"></button>
+                                        <div class="modal-body p-0">
+                                            <img src="images/5.jpg" class="w-100 d-block" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="pills-webdesign" role="tabpanel" aria-labelledby="pills-webdesign-tab"
+                    tabindex="0">
+                    <div class="row g-4">
+                        <div class="col-lg-4">
+                            <button type="button" class="btn p-0 d-block position-relative btn-modal overflow-hidden"
+                                data-bs-toggle="modal" data-bs-target="#imgModal4">
+                                <img src="images/1.jpg" class="w-100" alt="">
+                                <div
+                                    class="layer position-absolute h-100 top-0 w-100 d-flex flex-column justify-content-center align-items-center">
+                                    <h3 class="text-white text-opacity-75 fs-6">Category</h3>
+                                    <h4 class="text-white fs-5">Project Title</h4>
+                                </div>
+                            </button>
+                            <div class="modal fade" id="imgModal4" tabindex="-1" aria-labelledby="imgModal4Label"
+                                aria-hidden="true">
+                                <div class="modal-dialog modal-lg modal-dialog-centered">
+                                    <div class="modal-content position-relative">
+                                        <button type="button" class="btn-close position-absolute top-0 z-3 end-0"
+                                            data-bs-dismiss="modal" aria-label="Close"></button>
+                                        <div class="modal-body p-0">
+                                            <img src="images/1.jpg" class="w-100 d-block" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <button type="button" class="btn p-0 d-block position-relative btn-modal overflow-hidden"
+                                data-bs-toggle="modal" data-bs-target="#imgModal5">
+                                <img src="images/2.jpg" class="w-100" alt="">
+                                <div
+                                    class="layer position-absolute h-100 top-0 w-100 d-flex flex-column justify-content-center align-items-center">
+                                    <h3 class="text-white text-opacity-75 fs-6">Category</h3>
+                                    <h4 class="text-white fs-5">Project Title</h4>
+                                </div>
+                            </button>
+                            <div class="modal fade" id="imgModal5" tabindex="-1" aria-labelledby="imgModal5Label"
+                                aria-hidden="true">
+                                <div class="modal-dialog modal-lg modal-dialog-centered">
+                                    <div class="modal-content position-relative">
+                                        <button type="button" class="btn-close position-absolute top-0 z-3 end-0"
+                                            data-bs-dismiss="modal" aria-label="Close"></button>
+                                        <div class="modal-body p-0">
+                                            <img src="images/2.jpg" class="w-100 d-block" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <button type="button" class="btn p-0 d-block position-relative btn-modal overflow-hidden"
+                                data-bs-toggle="modal" data-bs-target="#imgModal6">
+                                <img src="images/4.jpg" class="w-100" alt="">
+                                <div
+                                    class="layer position-absolute h-100 top-0 w-100 d-flex flex-column justify-content-center align-items-center">
+                                    <h3 class="text-white text-opacity-75 fs-6">Category</h3>
+                                    <h4 class="text-white fs-5">Project Title</h4>
+                                </div>
+                            </button>
+                            <div class="modal fade" id="imgModal6" tabindex="-1" aria-labelledby="imgModal6Label"
+                                aria-hidden="true">
+                                <div class="modal-dialog modal-lg modal-dialog-centered">
+                                    <div class="modal-content position-relative">
+                                        <button type="button" class="btn-close position-absolute top-0 z-3 end-0"
+                                            data-bs-dismiss="modal" aria-label="Close"></button>
+                                        <div class="modal-body p-0">
+                                            <img src="images/4.jpg" class="w-100 d-block" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <button type="button" class="btn p-0 d-block position-relative btn-modal overflow-hidden"
+                                data-bs-toggle="modal" data-bs-target="#imgModal7">
+                                <img src="images/5.jpg" class="w-100" alt="">
+                                <div
+                                    class="layer position-absolute h-100 top-0 w-100 d-flex flex-column justify-content-center align-items-center">
+                                    <h3 class="text-white text-opacity-75 fs-6">Category</h3>
+                                    <h4 class="text-white fs-5">Project Title</h4>
+                                </div>
+                            </button>
+                            <div class="modal fade" id="imgModal7" tabindex="-1" aria-labelledby="imgModal7Label"
+                                aria-hidden="true">
+                                <div class="modal-dialog modal-lg modal-dialog-centered">
+                                    <div class="modal-content position-relative">
+                                        <button type="button" class="btn-close position-absolute top-0 z-3 end-0"
+                                            data-bs-dismiss="modal" aria-label="Close"></button>
+                                        <div class="modal-body p-0">
+                                            <img src="images/5.jpg" class="w-100 d-block" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <button type="button" class="btn p-0 d-block position-relative btn-modal overflow-hidden"
+                                data-bs-toggle="modal" data-bs-target="#imgModal8">
+                                <img src="images/6.jpg" class="w-100" alt="">
+                                <div
+                                    class="layer position-absolute h-100 top-0 w-100 d-flex flex-column justify-content-center align-items-center">
+                                    <h3 class="text-white text-opacity-75 fs-6">Category</h3>
+                                    <h4 class="text-white fs-5">Project Title</h4>
+                                </div>
+                            </button>
+                            <div class="modal fade" id="imgModal8" tabindex="-1" aria-labelledby="imgModal8Label"
+                                aria-hidden="true">
+                                <div class="modal-dialog modal-lg modal-dialog-centered">
+                                    <div class="modal-content position-relative">
+                                        <button type="button" class="btn-close position-absolute top-0 z-3 end-0"
+                                            data-bs-dismiss="modal" aria-label="Close"></button>
+                                        <div class="modal-body p-0">
+                                            <img src="images/6.jpg" class="w-100 d-block" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="pills-work" role="tabpanel" aria-labelledby="pills-work-tab"
+                    tabindex="0">
+                    <div class="row g-4">
+                        <div class="col-lg-4">
+                            <button type="button" class="btn p-0 d-block position-relative btn-modal overflow-hidden"
+                                data-bs-toggle="modal" data-bs-target="#imgModal9">
+                                <img src="images/2.jpg" class="w-100" alt="">
+                                <div
+                                    class="layer position-absolute h-100 top-0 w-100 d-flex flex-column justify-content-center align-items-center">
+                                    <h3 class="text-white text-opacity-75 fs-6">Category</h3>
+                                    <h4 class="text-white fs-5">Project Title</h4>
+                                </div>
+                            </button>
+                            <div class="modal fade" id="imgModal9" tabindex="-1" aria-labelledby="imgModal9Label"
+                                aria-hidden="true">
+                                <div class="modal-dialog modal-lg modal-dialog-centered">
+                                    <div class="modal-content position-relative">
+                                        <button type="button" class="btn-close position-absolute top-0 z-3 end-0"
+                                            data-bs-dismiss="modal" aria-label="Close"></button>
+                                        <div class="modal-body p-0">
+                                            <img src="images/2.jpg" class="w-100 d-block" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="pills-wordpress" role="tabpanel" aria-labelledby="pills-wordpress-tab"
+                    tabindex="0">
+                    <div class="row g-4">
+                        <div class="col-lg-4">
+                            <button type="button" class="btn p-0 d-block position-relative btn-modal overflow-hidden"
+                                data-bs-toggle="modal" data-bs-target="#imgModal10">
+                                <img src="images/1.jpg" class="w-100" alt="">
+                                <div
+                                    class="layer position-absolute h-100 top-0 w-100 d-flex flex-column justify-content-center align-items-center">
+                                    <h3 class="text-white text-opacity-75 fs-6">Category</h3>
+                                    <h4 class="text-white fs-5">Project Title</h4>
+                                </div>
+                            </button>
+                            <div class="modal fade" id="imgModal10" tabindex="-1" aria-labelledby="imgModal10Label"
+                                aria-hidden="true">
+                                <div class="modal-dialog modal-lg modal-dialog-centered">
+                                    <div class="modal-content position-relative">
+                                        <button type="button" class="btn-close position-absolute top-0 z-3 end-0"
+                                            data-bs-dismiss="modal" aria-label="Close"></button>
+                                        <div class="modal-body p-0">
+                                            <img src="images/1.jpg" class="w-100 d-block" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <button type="button" class="btn p-0 d-block position-relative btn-modal overflow-hidden"
+                                data-bs-toggle="modal" data-bs-target="#imgModal11">
+                                <img src="images/3.jpg" class="w-100" alt="">
+                                <div
+                                    class="layer position-absolute h-100 top-0 w-100 d-flex flex-column justify-content-center align-items-center">
+                                    <h3 class="text-white text-opacity-75 fs-6">Category</h3>
+                                    <h4 class="text-white fs-5">Project Title</h4>
+                                </div>
+                            </button>
+                            <div class="modal fade" id="imgModal11" tabindex="-1" aria-labelledby="imgModal11Label"
+                                aria-hidden="true">
+                                <div class="modal-dialog modal-lg modal-dialog-centered">
+                                    <div class="modal-content position-relative">
+                                        <button type="button" class="btn-close position-absolute top-0 z-3 end-0"
+                                            data-bs-dismiss="modal" aria-label="Close"></button>
+                                        <div class="modal-body p-0">
+                                            <img src="images/3.jpg" class="w-100 d-block" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <button type="button" class="btn p-0 d-block position-relative btn-modal overflow-hidden"
+                                data-bs-toggle="modal" data-bs-target="#imgModal12">
+                                <img src="images/5.jpg" class="w-100" alt="">
+                                <div
+                                    class="layer position-absolute h-100 top-0 w-100 d-flex flex-column justify-content-center align-items-center">
+                                    <h3 class="text-white text-opacity-75 fs-6">Category</h3>
+                                    <h4 class="text-white fs-5">Project Title</h4>
+                                </div>
+                            </button>
+                            <div class="modal fade" id="imgModal12" tabindex="-1" aria-labelledby="imgModal12Label"
+                                aria-hidden="true">
+                                <div class="modal-dialog modal-lg modal-dialog-centered">
+                                    <div class="modal-content position-relative">
+                                        <button type="button" class="btn-close position-absolute top-0 z-3 end-0"
+                                            data-bs-dismiss="modal" aria-label="Close"></button>
+                                        <div class="modal-body p-0">
+                                            <img src="images/5.jpg" class="w-100 d-block" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="blog py-3 py-lg-5 bg-light" id="blog">
+        <div class="container py-3 py-lg-5">
+            <div>
+                <div class="text-center mb-5">
+                    <h2 class="fw-medium fs-2">Our <span class="fw-bold">Blog</span></h2>
+                    <p class="text-black text-opacity-50 fw-medium pt-4 lh-base">It is a long established fact that a
+                        reader
+                        will
+                        be of a page when<br>established fact looking at its layout.</p>
+                </div>
+                <div class="row g-4 mt-4">
+                    <div class="col-lg-4">
+                        <div class="card border-0 p-3 bg-white">
+                            <img src="images/blog-1.jpg" class="card-img-top rounded-3" alt="...">
+                            <div class="card-body p-3">
+                                <h5 class="card-title"><a href="#" class="text-decoration-none text-dark fw-bold">There
+                                        are many variations</a></h5>
+                                <div class="card-text">
+                                    <p class="text-black text-opacity-50 fw-medium">11 March 2018 <span
+                                            class="text-main-color">By Kerri</span></p>
+                                    <p class="text-black text-opacity-50 fw-medium fs-14">Sit sagittis vulputate laoreet
+                                        sodales tortor nulla lobortis bibendum netus primis fames. Lobortis ultricies.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="card-body pt-0">
+                                <a href="#"
+                                    class="card-link text-decoration-none text-black text-opacity-50 fw-bold">Read
+                                    More...</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card border-0 p-3 bg-white">
+                            <img src="images/blog-2.jpg" class="card-img-top rounded-3" alt="...">
+                            <div class="card-body p-3">
+                                <h5 class="card-title"><a href="#"
+                                        class="text-decoration-none text-dark fw-bold">Contrary to popular belief</a>
+                                </h5>
+                                <div class="card-text">
+                                    <p class="text-black text-opacity-50 fw-medium">11 March 2018 <span
+                                            class="text-main-color">By Kerri</span></p>
+                                    <p class="text-black text-opacity-50 fw-medium fs-14">Sit sagittis vulputate laoreet
+                                        sodales tortor nulla lobortis bibendum netus primis fames. Lobortis ultricies.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="card-body pt-0">
+                                <a href="#"
+                                    class="card-link text-decoration-none text-black text-opacity-50 fw-bold">Read
+                                    More...</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card border-0 p-3 bg-white">
+                            <img src="images/blog-3.jpg" class="card-img-top rounded-3" alt="...">
+                            <div class="card-body p-3">
+                                <h5 class="card-title"><a href="#" class="text-decoration-none text-dark fw-bold">Lorem
+                                        Ipsum is not simply</a></h5>
+                                <div class="card-text">
+                                    <p class="text-black text-opacity-50 fw-medium">11 March 2018 <span
+                                            class="text-main-color">By Kerri</span></p>
+                                    <p class="text-black text-opacity-50 fw-medium fs-14">Sit sagittis vulputate laoreet
+                                        sodales tortor nulla lobortis bibendum netus primis fames. Lobortis ultricies.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="card-body pt-0">
+                                <a href="#"
+                                    class="card-link text-decoration-none text-black text-opacity-50 fw-bold">Read
+                                    More...</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="contact py-3 py-lg-5" id="contact">
+        <div class="container py-3 py-lg-5">
+            <div class="text-center mb-5">
+                <h2 class="fw-medium fs-2"><span class="fw-bold">Contct </span>Us</h2>
+                <p class="text-black text-opacity-50 fw-medium pt-4 lh-base">It is a long established fact that a
+                    reader
+                    will
+                    be of a page when<br>established fact looking at its layout.</p>
+            </div>
+            <div class="row g-4 mt-3">
+                <div class="col-12">
+                    <div class="row g-4">
+                        <div class="col-lg-4">
+                            <div class="text-center">
+                                <div class="mb-4">
+                                    <i class="fa-solid fa-mobile-screen text-main-color fs-2"></i>
+                                </div>
+                                <h3 class="fs-6 fw-bold">Call Us On</h3>
+                                <h4 class="fs-14 text-black text-opacity-50">+985 123 7856</h4>
+                            </div>
+
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="text-center">
+                                <div class="mb-4">
+                                    <i class="fa-regular fa-envelope text-main-color fs-2"></i>
+                                </div>
+                                <h3 class="fs-6 fw-bold">Email Us At</h3>
+                                <h4 class="fs-14 text-black text-opacity-50">Website.Kerri@gmail.com</h4>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="text-center">
+                                <div class="mb-4">
+                                    <i class="fa-solid fa-location-dot text-main-color fs-2"></i>
+                                </div>
+                                <h3 class="fs-6 fw-bold">Visit Office</h3>
+                                <h4 class="fs-14 text-black text-opacity-50">202, Grasselli Street , Conway.</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div>
+                        <form class="row g-4 mt-4">
+                            <div class="col-md-6">
+                                <input type="text" class="form-control py-2" id="name" placeholder="Your Name..">
+                            </div>
+                            <div class="col-md-6">
+                                <input type="email" class="form-control py-2" id="email" placeholder="Your Email..">
+                            </div>
+                            <div class="col-12">
+                                <input type="text" class="form-control py-2" id="subject" placeholder="Your Subject..">
+                            </div>
+                            <div class="col-md-12">
+                                <textarea class="form-control py-2" id="message"
+                                    placeholder="Your Message.."></textarea>
+                            </div>
+
+                            <div class="col-12">
+                                <button class="custm-btn mt-3 border-0 p-0 d-block ms-auto rounded-pill"><a href="#"
+                                        class="text-decoration-none d-block px-5 py-2 fw-medium text-uppercase text-white rounded-pill">Hire
+                                        me</a></button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="py-3 py-lg-5">
+        <div class="container d-flex flex-column justify-content-center align-items-center">
+            <div class="d-flex gap-2 icons">
+                <a href="http://www.facebook.com"
+                    class="text-decoration-none d-flex justify-content-center align-items-center rounded-circle"><i
+                        class="fa-brands fa-facebook-f fs-5"></i></a>
+                <a href="http://www.facebook.com"
+                    class="text-decoration-none d-flex justify-content-center align-items-center rounded-circle"><i
+                        class="fa-brands fa-instagram fs-5"></i></a>
+                <a href="http://www.facebook.com"
+                    class="text-decoration-none d-flex justify-content-center align-items-center rounded-circle"><i
+                        class="fa-brands fa-twitter fs-5"></i></a>
+                <a href="http://www.facebook.com"
+                    class="text-decoration-none d-flex justify-content-center align-items-center rounded-circle"><i
+                        class="fa-brands fa-linkedin-in fs-5"></i></a>
+            </div>
+            <p class="text-white text-opacity-50 mt-3">2018 - 2021 © Kerri. Design by SRBThemes.</p>
+        </div>
+
+    </footer>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

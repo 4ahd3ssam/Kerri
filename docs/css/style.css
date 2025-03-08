@@ -1,0 +1,227 @@
+* {
+    font-family: "Montserrat", sans-serif;
+}
+
+:root {
+    --gray-dark: rgb(51, 51, 51);
+    --main-color: #e65f78;
+}
+
+::selection {
+    background-color: rgb(193, 193, 193);
+}
+
+.fs-14 {
+    font-size: 14px;
+}
+
+.fs-12 {
+    font-size: 12px;
+}
+
+.text-main-color {
+    color: var(--main-color);
+}
+
+.btn-close:focus {
+    box-shadow: none;
+}
+
+.custm-btn {
+    width: fit-content;
+}
+
+.custm-btn a {
+    background-color: var(--main-color);
+    transition: 0.5s;
+}
+
+.custm-btn:hover a {
+    background-color: #d94b65;
+}
+
+/*fixed*/
+.fixed-gear {
+    width: 40px;
+    height: 30px;
+    top: 20%;
+    cursor: pointer;
+    background-color: var(--gray-dark);
+    z-index: 1000;
+}
+
+.fixed-arrow {
+    background-color: var(--main-color);
+    right: 10%;
+    z-index: 1000;
+}
+
+/*navbar*/
+.navbar {
+    z-index: 999;
+    box-shadow: 0 -4px 10px gray;
+}
+
+.navbar .nav-link,
+.navbar .navbar-brand {
+    color: var(--gray-dark);
+}
+
+.navbar .nav-pills .nav-link.active,
+.navbar .nav-pills .show>.nav-link,
+.navbar .nav-link:hover {
+    color: var(--main-color);
+    background-color: transparent;
+}
+
+/*hero*/
+.hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images/header-bg.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.hero h1::after {
+    content: "";
+    animation: animated-header 15s infinite;
+}
+
+.cv-btn a {
+    color: white;
+}
+
+.cv-btn:hover a {
+    color: var(--gray-dark);
+}
+
+.move-link {
+    top: 90%;
+}
+
+.move-btn {
+    animation: animated-btn 2s infinite;
+}
+
+.move-btn::after {
+    content: "";
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: white;
+    height: 8px;
+    width: 3px;
+}
+
+/*about*/
+.about .icons i {
+    color: black;
+    transition: 0.5s;
+}
+
+.about .icons>div {
+    width: 40px;
+    height: 40px;
+    transition: 0.5s;
+    border: 2px solid rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+}
+
+.about .icons>div:hover i {
+    color: var(--main-color);
+}
+
+.about .icons>div:hover {
+    border-color: var(--main-color);
+}
+
+/*services*/
+.services h3::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 40px;
+    height: 3px;
+    background-color: var(--main-color);
+    transition: 0.5s;
+}
+
+.services .col-lg-4>div:hover h3::after {
+    width: 80px;
+}
+
+/*client*/
+.client .carousel-indicators [data-bs-target] {
+    width: 10px;
+    height: 6px;
+    background-color: var(--main-color);
+}
+
+.client .carousel-indicators .active {
+    width: 20px;
+}
+
+/*portfolio*/
+.portfolio .nav-pills .nav-link {
+    color: var(--gray-dark);
+    transition: 0.5s;
+}
+
+.portfolio .nav-pills .nav-link:hover,
+.portfolio .nav-pills .active {
+    color: white;
+    background-color: var(--main-color);
+}
+
+.portfolio .btn-modal .layer {
+    transform: translateY(100%);
+}
+
+.portfolio .btn-modal img {
+    transition: 0.5s;
+}
+
+.portfolio .btn-modal:hover img {
+    transform: scale(1.1);
+    filter: brightness(25%);
+}
+
+.portfolio .btn-modal:hover .layer {
+    transform: translateY(0);
+    transition: 0.5s;
+}
+
+.portfolio .btn-close {
+    margin-top: -4%;
+    --bs-btn-close-opacity: 0.4;
+    --bs-btn-close-hover-opacity: 0.5;
+}
+
+/*contact*/
+.form-control {
+    border: 2px solid rgba(0, 0, 0, 0.25);
+}
+
+.form-control:focus {
+    border-color: var(--main-color);
+    box-shadow: none;
+}
+
+/*footer*/
+footer {
+    background-color: var(--gray-dark);
+}
+
+footer .icons>a {
+    width: 50px;
+    height: 50px;
+    background-color: rgba(241, 241, 241, 0.08);
+    color: rgba(255, 255, 255, 0.5);
+    transition: 0.5s;
+}
+
+footer .icons>a:hover {
+    color: var(--main-color)
+}

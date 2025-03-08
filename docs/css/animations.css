@@ -1,0 +1,284 @@
+@keyframes animated-header {
+    0% {
+        content: "|";
+    }
+    1% {
+        content: "K|";
+    }
+    2% {
+        content: "Ke|";
+    }
+    3% {
+        content: "Ker|";
+    }
+    4% {
+        content: "Kerr|";
+    }
+    5% {
+        content: "Kerri|";
+    }
+    6% {
+        content: "Kerri |";
+    }
+    7% {
+        content: "Kerri D|";
+    }
+    8% {
+        content: "Kerri De|";
+    }
+    9% {
+        content: "Kerri Deo|";
+    }
+    10% {
+        content: "Kerri Deo.|";
+    }
+    14% {
+        content: "Kerri Deo.|";
+    }
+    15% {
+        content: "Kerri Deo|";
+    }
+    16% {
+        content: "Kerri De|";
+    }
+    17% {
+        content: "Kerri D|";
+    }
+    18% {
+        content: "Kerri |";
+    }
+    19% {
+        content: "Kerri|";
+    }
+    20% {
+        content: "Kerr|";
+    }
+    21% {
+        content: "Ker|";
+    }
+    22% {
+        content: "Ke|";
+    }
+    23% {
+        content: "K|";
+    }    
+    24% {
+        content: "|";
+    }
+    25% {
+        content: "A|";
+    }
+    26% {
+        content: "A G|";
+    }
+    27% {
+        content: "A Gr|";
+    }
+    28% {
+        content: "A Gra|";
+    }
+    29% {
+        content: "A Grap|";
+    }
+    30% {
+        content: "A Graph|";
+    }
+    31% {
+        content: "A Graphi|";
+    }
+    32% {
+        content: "A Graphic|";
+    }
+    33% {
+        content: "A Graphic |";
+    }
+    34% {
+        content: "A Grapic D|";
+    }
+    35% {
+        content: "A Grapic De|";
+    }
+    36% {
+        content: "A Grapic Des|";
+    }
+    37% {
+        content: "A Grapic Desi|";
+    }
+    38% {
+        content: "A Grapic Desig|";
+    }
+    39% {
+        content: "A Grapic Design|";
+    }
+    40% {
+        content: "A Grapic Designe|";
+    }
+    41% {
+        content: "A Grapic Designer|";
+    }
+    42% {
+        content: "A Grapic Designer.|";
+    }
+    46% {
+        content: "A Grapic Designer.|";
+    }
+    47% {
+        content: "A Grapic Designer|";
+    }
+    48% {
+        content: "A Grapic Designe|";
+    }    
+    49% {
+        content: "A Grapic Design|";
+    }
+    50% {
+        content: "A Grapic Desig|";
+    }    
+    51% {
+        content: "A Grapic Desi|";
+    }
+    52% {
+        content: "A Grapic Des|";
+    }    
+    53% {
+        content: "A Grapic De|";
+    }
+    54% {
+        content: "A Grapic D|";
+    }
+    55% {
+        content: "A Grapic |";
+    }    
+    56% {
+        content: "A Grapic|";
+    }
+    57% {
+        content: "A Grapi|";
+    }
+    58% {
+        content: "A Grap|";
+    }
+    59% {
+        content: "A Gra|";
+    }    
+    60% {
+        content: "A Gr|";
+    }
+    61% {
+        content: "A |";
+    }    
+    62% {
+        content: "A P|";
+    }
+    63% {
+        content: "A Ph|";
+    }
+    64% {
+        content: "A Pho|";
+    }
+    65% {
+        content: "A Phot|";
+    }
+    66% {
+        content: "A Photo|";
+    }
+    67% {
+        content: "A Photog|";
+    }
+    68% {
+        content: "A Photogr|";
+    }
+    69% {
+        content: "A Photogra|";
+    }
+    70% {
+        content: "A Photograp|";
+    }
+    71% {
+        content: "A Photograph|";
+    }
+    72% {
+        content: "A Photographe|";
+    }
+    73% {
+        content: "A Photographer|";
+    }
+    74% {
+        content: "A Photographer.|";
+    }
+    78% {
+        content: "A Photographer.|";
+    }
+    79% {
+        content: "A Photographer|";
+    }
+    80% {
+        content: "A Photographe|";
+    }
+    81% {
+        content: "A Photograph|";
+    }
+    82% {
+        content: "A Photograp|";
+    }
+    83% {
+        content: "A Photogra|";
+    }
+    84% {
+        content: "A Photogr|";
+    }
+    85% {
+        content: "A Photog|";
+    }
+    86% {
+        content: "A Photo|";
+    }
+    87% {
+        content: "A Phot|";
+    }
+    88% {
+        content: "A Pho|";
+    }
+    89% {
+        content: "A Ph|";
+    }
+    90% {
+        content: "A P|";
+    }
+    91% {
+        content: "A |";
+    }
+    92% {
+        content: "A|";
+    }
+    93% {
+        content: "|";
+    }
+    100% {
+        content: "|";
+    }
+}
+
+@keyframes animated-btn {
+    0% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-80%);
+    }
+    60% {
+        transform: translateY(0);
+    }
+    70% {
+        transform: translateY(-50%);
+    }
+    80% {
+        transform: translateY(0);
+    }
+    90% {
+        transform: translateY(-25%);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
